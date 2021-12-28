@@ -163,6 +163,27 @@ html{
     transition: all 0.3s ease;
 }
 
+.home .home-content .social a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    margin: 2px;
+    padding: 2px 2px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.home .home-content .social a:hover{
+    cursor: pointer;
+    background: none;
+    color: crimson;
+}
+
+
+
 .home .home-content a:hover{
     cursor: pointer;
     background: none;
@@ -363,7 +384,7 @@ section{
 }
 
 .skills .skills-content .right .bars{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .skills .skills-content .right .info{
@@ -409,6 +430,10 @@ section{
     width: 70%;
 }
 
+.skills .skills-content .right .bootstrap::before{
+    width: 80%;
+}
+
 .skills .skills-content .right .reactjs::before{
     width: 60%;
 }
@@ -428,7 +453,7 @@ section{
 }
 
 .projects .carousel .card:hover{
-    background: crimson;
+    /* background: crimson; */
     transform: scale(1.05);
 }
 
@@ -441,22 +466,58 @@ section{
 }
 
 .projects .carousel .card .text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
 .projects .carousel .card img{
     height: 150px;
-    width: 150px;
+    width: 220px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    border-radius: 6px;
+    /* border: 5px solid crimson; */
     transition: all 0.3s ease;
 }
 
 .projects .carousel .card:hover img{
     border-color: #fff;
+}
+
+.projects .box .website a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.projects .box .source_code a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.projects .box .website a:hover{
+    color: crimson;
+    background: none;
+}
+
+.projects .box .source_code a:hover{
+    color: crimson;
+    background: none;
 }
 
 .owl-dots{
@@ -623,6 +684,25 @@ footer span a{
 
 footer span a:hover{
     text-decoration: underline;
+}
+
+footer .social a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 15px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+footer .social a:hover{
+    cursor: pointer;
+    background: none;
+    color: crimson;
 }
 
 
